@@ -117,7 +117,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "𝘬𝓲𝘳ꪖ ᥊ ꪑꪊ𝘴𝓲ᥴ"
+        user.first_name = "𝘴𝘬ꪗ ᥊ ꪑꪊ𝘴𝓲ᥴ"
     usar = user
     wew = usar.id
     try:
@@ -141,12 +141,12 @@ async def play(_, message: Message):
                     pass
                 except Exception:
                     await lel.edit(
-                        f"**𝗣𝗹𝗲𝗮𝘀𝗲 🥺 𝗮𝗱𝗱 @klm_player 𝗺𝗮𝗻𝘂𝘃𝗮𝗹𝘆 𝗼𝗿 𝗰𝗼𝗻𝘁𝗮𝗰𝘁 𝘁𝗼 😎 @kiraxophunter 😎** ")
+                        f"**𝗣𝗹𝗲𝗮𝘀𝗲 🥺 𝗮𝗱𝗱 @skyxassistant 𝗺𝗮𝗻𝘂𝘃𝗮𝗹𝘆 𝗼𝗿 𝗰𝗼𝗻𝘁𝗮𝗰𝘁 𝘁𝗼 😎 @THESKYLORD_XD 😎** ")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"**𝗣𝗹𝗲𝗮𝘀𝗲 🥺 𝗮𝗱𝗱 @klm_player 𝗺𝗮𝗻𝘂𝘃𝗮𝗹𝘆 𝗼𝗿 𝗰𝗼𝗻𝘁𝗮𝗰𝘁 𝘁𝗼 😎 @kiraxophunter 😎...*")
+            f"**𝗣𝗹𝗲𝗮𝘀𝗲 🥺 𝗮𝗱𝗱 @skyxassistant 𝗺𝗮𝗻𝘂𝘃𝗮𝗹𝘆 𝗼𝗿 𝗰𝗼𝗻𝘁𝗮𝗰𝘁 𝘁𝗼 😎 @THESKYLORD_XD 😎...*")
         return
     
     audio = (
