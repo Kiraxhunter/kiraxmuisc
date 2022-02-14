@@ -336,7 +336,7 @@ async def play(_, message: Message):
 async def pause(_, message: Message):
     await clientbot.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/e741ceb6e75683b9f0f81.jpg", 
+                             photo="https://telegra.ph/file/40d08ecf9852075faeee9.jpg", 
                              caption="**💥  𝘴𝘬ꪗ ᥊ ꪑꪊ𝘴𝓲ᥴ 𝘄𝗮𝗻𝘁 𝘁𝗼 𝗿𝗼𝗰𝗸 𝗼𝗻 𝘃𝗰 ▶️🤟🤘...**"
     )
 
@@ -347,7 +347,7 @@ async def pause(_, message: Message):
 async def resume(_, message: Message):
     await clientbot.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/6fd7dffc9a4b7901c92a4.jpg", 
+                             photo="https://telegra.ph/file/40d08ecf9852075faeee9.jpg", 
                              caption="**💥 𝘴𝘬ꪗ ᥊ ꪑꪊ𝘴𝓲ᥴ 𝘄𝗶𝗹𝗹 𝗿𝗼𝗰𝗸 𝗮𝗴𝗮𝗶𝗻 𝗼𝗻 𝘃𝗰🤘🤟⏸️...**"
     )
 
@@ -381,7 +381,7 @@ async def skip(_, message: Message):
 
 
     await message.reply_photo(
-                             photo="https://telegra.ph/file/e741ceb6e75683b9f0f81.jpg", 
+                             photo="https://telegra.ph/file/40d08ecf9852075faeee9.jpg", 
                              caption=f'**💥 𝘴𝘬ꪗ ᥊ ꪑꪊ𝘴𝓲ᥴ 𝘄𝗶𝗹𝗹 𝗽𝗹𝗮𝘆 𝗻𝗲𝘅𝘁 𝗼𝗽 𝘀𝗼𝗻𝗴 🤟🤘⏩ ...**'
    ) 
 
@@ -397,7 +397,7 @@ async def stop(_, message: Message):
 
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/e741ceb6e75683b9f0f81.jpg", 
+                             photo="https://telegra.ph/file/40d08ecf9852075faeee9.jpg", 
                              caption="**💥 𝘴𝘬ꪗ ᥊ ꪑꪊ𝘴𝓲ᥴ 𝗥𝗼𝗰𝗸𝗲𝗱 𝗼𝗻 𝘃𝗰 🤟🤘🚫 𝗽𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆:- @kirarealdeathgod ...**"
     )
 
@@ -415,6 +415,6 @@ async def admincache(client, message: Message):
     )
 
     await message.reply_photo(
-                              photo="https://telegra.ph/file/e741ceb6e75683b9f0f81.jpg",
+                              photo="https://telegra.ph/file/40d08ecf9852075faeee9.jpg",
                               caption="**💥 💥 𝘴𝘬ꪗ ᥊ ꪑꪊ𝘴𝓲ᥴ 𝙬𝙞𝙡𝙡 𝙧𝙚𝙨𝙩𝙖𝙧𝙩 𝙞𝙣 1 𝙩𝙤 2 𝙢𝙞𝙣...**"
     )
