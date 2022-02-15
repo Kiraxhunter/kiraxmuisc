@@ -117,7 +117,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "𝘴𝘬ꪗ ᥊ ꪑꪊ𝘴𝓲ᥴ"
+        user.first_name = "𝘴ꪊꪀꪀꪗ ᥊ ꪑꪊ𝘴𝓲ᥴ"
     usar = user
     wew = usar.id
     try:
@@ -305,7 +305,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="**💥 𝘴𝘬ꪗ ᥊ ꪑꪊ𝘴𝓲ᥴ 𝗔𝗱𝗱𝗲𝗱 𝗮 𝘀𝗼𝗻𝗴 ❗️\n 𝗮𝘁 𝗽𝗼𝘀𝗶𝘁𝗶𝗼𝗻 » `{}` ❣️...**".format(position),
+            caption="**💥  𝘴ꪊꪀꪀꪗ ᥊ ꪑꪊ𝘴𝓲ᥴ 𝗔𝗱𝗱𝗲𝗱 𝗮 𝘀𝗼𝗻𝗴 ❗️\n 𝗮𝘁 𝗽𝗼𝘀𝗶𝘁𝗶𝗼𝗻 » `{}` ❣️...**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -322,7 +322,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**💥  𝘴𝘬ꪗ ᥊ ꪑꪊ𝘴𝓲ᥴ 𝗥𝗼𝗰𝗸𝗶𝗻𝗴 𝗼𝗻 𝘃𝗰 🤘🤟 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆:- @kirarealdeathgod ...**".format(),
+            caption="**💥  𝘴ꪊꪀꪀꪗ ᥊ ꪑꪊ𝘴𝓲ᥴ 𝗥𝗼𝗰𝗸𝗶𝗻𝗴 𝗼𝗻 𝘃𝗰 🤘🤟 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆:- @kirarealdeathgod ...**".format(),
             
            )
 
@@ -337,7 +337,7 @@ async def pause(_, message: Message):
     await clientbot.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/40d08ecf9852075faeee9.jpg", 
-                             caption="**💥  𝘴𝘬ꪗ ᥊ ꪑꪊ𝘴𝓲ᥴ 𝘄𝗮𝗻𝘁 𝘁𝗼 𝗿𝗼𝗰𝗸 𝗼𝗻 𝘃𝗰 ▶️🤟🤘...**"
+                             caption="**💥  𝘴ꪊꪀꪀꪗ ᥊ ꪑꪊ𝘴𝓲ᥴ 𝘄𝗮𝗻𝘁 𝘁𝗼 𝗿𝗼𝗰𝗸 𝗼𝗻 𝘃𝗰 ▶️🤟🤘...**"
     )
 
 
@@ -348,7 +348,7 @@ async def resume(_, message: Message):
     await clientbot.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/40d08ecf9852075faeee9.jpg", 
-                             caption="**💥 𝘴𝘬ꪗ ᥊ ꪑꪊ𝘴𝓲ᥴ 𝘄𝗶𝗹𝗹 𝗿𝗼𝗰𝗸 𝗮𝗴𝗮𝗶𝗻 𝗼𝗻 𝘃𝗰🤘🤟⏸️...**"
+                             caption="**💥 𝘴ꪊꪀꪀꪗ ᥊ ꪑꪊ𝘴𝓲ᥴ 𝘄𝗶𝗹𝗹 𝗿𝗼𝗰𝗸 𝗮𝗴𝗮𝗶𝗻 𝗼𝗻 𝘃𝗰🤘🤟⏸️...**"
     )
 
 
@@ -363,7 +363,7 @@ async def skip(_, message: Message):
     for x in clientbot.pytgcalls.active_calls:
         ACTV_CALLS.append(int(x.chat_id))
     if int(chat_id) not in ACTV_CALLS:
-        await message.reply_text("**💥 𝘴𝘬ꪗ ᥊ ꪑꪊ𝘴𝓲ᥴ 𝘄𝗶𝗹𝗹 𝗽𝗹𝗮𝘆 𝗻𝗲𝘅𝘁 𝗼𝗽 𝘀𝗼𝗻𝗴 🤟🤘⏩...**")
+        await message.reply_text("**💥 𝘴ꪊꪀꪀꪗ ᥊ ꪑꪊ𝘴𝓲ᥴ 𝘄𝗶𝗹𝗹 𝗽𝗹𝗮𝘆 𝗻𝗲𝘅𝘁 𝗼𝗽 𝘀𝗼𝗻𝗴 🤟🤘⏩...**")
     else:
         queues.task_done(chat_id)
         
@@ -382,7 +382,7 @@ async def skip(_, message: Message):
 
     await message.reply_photo(
                              photo="https://telegra.ph/file/40d08ecf9852075faeee9.jpg", 
-                             caption=f'**💥 𝘴𝘬ꪗ ᥊ ꪑꪊ𝘴𝓲ᥴ 𝘄𝗶𝗹𝗹 𝗽𝗹𝗮𝘆 𝗻𝗲𝘅𝘁 𝗼𝗽 𝘀𝗼𝗻𝗴 🤟🤘⏩ ...**'
+                             caption=f'**💥 𝘴ꪊꪀꪀꪗ ᥊ ꪑꪊ𝘴𝓲ᥴ 𝘄𝗶𝗹𝗹 𝗽𝗹𝗮𝘆 𝗻𝗲𝘅𝘁 𝗼𝗽 𝘀𝗼𝗻𝗴 🤟🤘⏩ ...**'
    ) 
 
 
@@ -398,7 +398,7 @@ async def stop(_, message: Message):
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/40d08ecf9852075faeee9.jpg", 
-                             caption="**💥 𝘴𝘬ꪗ ᥊ ꪑꪊ𝘴𝓲ᥴ 𝗥𝗼𝗰𝗸𝗲𝗱 𝗼𝗻 𝘃𝗰 🤟🤘🚫 𝗽𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆:- @kirarealdeathgod ...**"
+                             caption="**💥 𝘴ꪊꪀꪀꪗ ᥊ ꪑꪊ𝘴𝓲ᥴ 𝗥𝗼𝗰𝗸𝗲𝗱 𝗼𝗻 𝘃𝗰 🤟🤘🚫 𝗽𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆:- @kirarealdeathgod ...**"
     )
 
 
@@ -416,5 +416,5 @@ async def admincache(client, message: Message):
 
     await message.reply_photo(
                               photo="https://telegra.ph/file/40d08ecf9852075faeee9.jpg",
-                              caption="**💥 💥 𝘴𝘬ꪗ ᥊ ꪑꪊ𝘴𝓲ᥴ 𝙬𝙞𝙡𝙡 𝙧𝙚𝙨𝙩𝙖𝙧𝙩 𝙞𝙣 1 𝙩𝙤 2 𝙢𝙞𝙣...**"
+                              caption="**💥 💥 𝘴ꪊꪀꪀꪗ ᥊ ꪑꪊ𝘴𝓲ᥴ 𝙬𝙞𝙡𝙡 𝙧𝙚𝙨𝙩𝙖𝙧𝙩 𝙞𝙣 1 𝙩𝙤 2 𝙢𝙞𝙣...**"
     )
